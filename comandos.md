@@ -1,5 +1,4 @@
 
-
 Añade todos archivos con cambios al area de staging: 
 git add -A 
 
@@ -8,4 +7,5 @@ git commit -m "Mnesaje del commit"
 
 Sube los commits del respositorio local al repositorio remoto:
 git push
+
 
