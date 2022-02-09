@@ -1,0 +1,105 @@
+
+
+
+body{
+    background-color: rgb(59, 58, 58);
+}
+
+/*
+    Selector de descendientes
+    Selecciona todos los elementos
+    descendientes del elemento indicado
+    que cumplan alguna condicion
+
+    ancestro descendienteSeleccionado{
+
+    }
+*/
+
+/*
+header p{
+    background-color: royalblue;
+}
+*/
+
+/*
+    Selector de hijos
+    Me permite seleccionar a los hijos que cumplan 
+    cierta condicion
+
+    padre>hijoSeleccionado{
+
+    }
+*/
+
+/*
+header>p{
+    color: white;
+}
+*/
+
+/*
+Selector de hermanos ordinarios
+Selecciona a todos los elementos que corresponda
+con el criterio de busqueda que sean hermanos
+del elemento de referencia
+
+hermanoDeReferencia~hermanosSeleccionados{
+
+}
+*/
+
+/*
+section>h3~article{
+    background-color: slateblue;
+}
+*/
+
+/*
+  hermanoDeReferencia+hermanoAdyacenteSeleccionado{
+
+  }  
+*/
+
+/*
+section>h3+article#principal-article{
+    background-color: tomato;
+}
+
+section>h3+article{
+    background-color: skyblue !important;
+}
+*/
+
+html{
+    font-size: 20px;
+}
+
+div{
+    border: 5px solid tomato;
+}
+
+div#div-px{
+    width: 250px;
+}
+
+div#div-rem{
+    width: 15rem;
+}
+
+div#div-vw{
+    width: 25vw;
+}
+
+div#div-vh{
+    width: 25vh;
+}
+
+section{
+    background-color: thistle;
+    width: 800px;
+}
+
+div#div-porcentaje{
+    width: 50%;
+}
