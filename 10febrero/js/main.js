@@ -38,3 +38,46 @@ const productos = [
     }
 ]
 */
+
+
+/*
+    <div class="card">
+        <div class="img-wrapper">
+            <img class="principal-img" src="https://picsum.photos/200/300" alt="imagen">
+            <img src="https://picsum.photos/id/175/200/300" alt="">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, repellendus.</p>
+        <button>Comprar</button>
+    </div>
+
+*/
+const section = document.getElementsByTagName("section")[0]
+
+const card = document.createElement( "div" )
+card.classList.add( "card" )
+
+const imagesWrapper = document.createElement("div")
+imagesWrapper.classList.add( "img-wrapper" )
+
+const firstImg = document.createElement( "img" )
+firstImg.src = "https://picsum.photos/200/300"
+firstImg.classList.add("principal-img")
+
+const secondImg = document.createElement("img")
+secondImg.src = "https://picsum.photos/id/175/200/300"
+
+const paragraph = document.createElement("p")
+paragraph.textContent = "Nombre del producto"
+
+const button = document.createElement("button")
+button.textContent = "Comprar"
+
+card.appendChild( imagesWrapper )
+card.appendChild( paragraph )
+card.appendChild( button )
+
+imagesWrapper.appendChild( firstImg )
+imagesWrapper.appendChild( secondImg )
+
+section.appendChild( card )
+console.log( card )
