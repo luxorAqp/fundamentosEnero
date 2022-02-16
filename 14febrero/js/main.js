@@ -145,7 +145,6 @@ section.addEventListener( "click", (evento) =>{
         let producto = {
             nombre : p.textContent,
             precio: 1000,
-
         }
 
         carrito.push( producto )
